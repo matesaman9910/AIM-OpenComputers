@@ -25,14 +25,15 @@ stale cache.
 
 ## Install or upgrade
 
-Run the published Pastebin installer:
+OpenOS normally includes the `pastebin` program, so the shortest install command
+is:
 
 ```sh
-wget -f https://pastebin.com/raw/wHutR5DR /tmp/aim-installer.lua
-lua /tmp/aim-installer.lua
+pastebin run wHutR5DR
 ```
 
-Alternatively, download the same wizard directly from GitHub:
+If `pastebin` is unavailable or disabled, download the same wizard directly
+from GitHub:
 
 ```sh
 wget -f https://raw.githubusercontent.com/matesaman9910/AIM-OpenComputers/main/installer.lua /tmp/aim-installer.lua
